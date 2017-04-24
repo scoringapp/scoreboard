@@ -1,0 +1,443 @@
+ 
+    .myrotate{
+		-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+	}
+	.inputstyles{
+		    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #fff;
+	}
+	.headerheight{
+		height: 85px;
+	}
+/*	.button:active{
+	
+		border-radius: 50%;
+	}*/
+	.maincontent .scroll-content{
+       margin-top: 85px;
+	}
+	.maincontent{
+		background: url('assets/icon/scoreback1.png')no-repeat center center fixed;
+		 background-size: cover;
+	}
+	.backbtnicon{
+	font-size: 35px;
+	padding-left:5px;
+	color: #fff;
+}
+/* styles for dropdown in ios only */
+  .list-ios > .item-block:first-child {
+  border-top: none !important; 
+}
+
+.list-ios > .item-block:last-child,
+.list-ios > .item-wrapper:last-child .item-block {
+  border-bottom: none !important; 
+}
+
+.list-ios > .item-block:last-child .item-inner,
+.list-ios > .item-wrapper:last-child .item-block .item-inner {
+  border-bottom: none !important; 
+}
+
+.list-ios .item-block .item-inner {
+  border-bottom: none !important; 
+}
+
+.list-ios .item[no-lines],
+.list-ios .item[no-lines] .item-inner {
+  border-width: none !important; 
+}
+.gameicon{
+	width:70%;
+	height:70px;
+	float: right;
+	padding-right: 10px;
+	padding-bottom: 7px;
+}
+.playerdetailstext{
+	font-size: 16px;
+
+}
+.downtimeout{
+	width:17%;
+}
+.downtimeoutptag{
+	color: #fff;
+	margin:0px;
+}
+.downplayerscls{
+	color: #fff;
+	margin:0px;
+}
+.bottomserve{
+	color: #fff;
+	padding-left: 15px;
+	margin:0px;
+}
+.stylesbtn{
+    border: 2px solid rgba(255, 152, 0, 0.86) !important;
+     background-color: rgba(255, 255, 255, 0.18);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.myrotateclassforserve{
+	margin:15px 0px 0px 0px;
+	 justify-content: space-between;
+	 width: 100%;
+}
+.buttonmainstyles{
+	border-radius: 3px;
+	width:32px;
+	height:32px;
+	border: 1px solid rgba(202, 200, 200, 0.46);
+}
+.bcktranprnt{
+	 background-color: rgba(255, 255, 255, 0.18);
+
+}
+.nameoftourn{
+	color: #fff;margin-top: 0px;
+}
+.detailsspan{
+	padding-left: 12px;text-transform:uppercase;color:#080C2B ;
+
+}
+.gameicondiv{
+	padding: 0px;
+}
+	.activeclass{
+		border-radius: 27% !important;
+    width: 32px !important;
+    height: 32px !important;
+    left: 0 !important;
+    right: 0;
+    border: 1px solid rgba(202, 200, 200, 0.46) !important;
+    background: rgb(255, 247, 247) !important;
+    color: #122344 !important;
+  /*   font-weight: bold !important; */
+    font-size: 13px !important;
+    box-shadow: 0px 0px 9px 2px rgba(136, 136, 136, 0.56);
+
+	}
+	.overit{
+		    background: rgb(207, 140, 45) !important;
+		    color: rgba(8, 12, 43, 0.72) !important;
+		     font-size: 13px !important;
+		      font-weight: bold !important;
+	}
+	.serve{
+		    border: 1px solid #fff !important;
+    background: rgba(8, 12, 43, 0.72) !important;
+    box-shadow: 0px 0px 9px 2px rgba(136, 136, 136, 0.56) !important;
+    color: #fff !important;
+}
+.seveion{
+	    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.buttonstylediv{
+	    margin: 2px;
+}
+.scoresheetdiv{
+    border: 1px solid rgba(202, 200, 200, 0.46);
+   background: rgba(255, 255, 255, 0.07);
+   padding: 15px 0;
+   margin-left: 10px;
+   width: 98%;
+}
+.btnbckwhite{
+    background-color: #fff;
+    color:#080C2B ;
+    border-radius: 50% ;
+/*style for serve running*/
+}
+.btnstylepoints{
+    background-color:#ff8500 ;
+    color:#080C2B ;
+/*style for get points orange*/
+}
+.btnstylepointsgreen{
+    background-color:#54e237 ;
+    color:#080C2B ;
+    /*style for get points green*/
+}
+.btnstylesforset{
+    background-color: #f3f3f3 ;
+    color:#080C2B ;
+    /*style for get points white for set*/
+}
+.textcoloractive{
+	color:#ff8500;
+	/* color orange for text */
+}
+.textcoloractiveblue{
+	 color:#080C2B ;
+}
+ @media screen and (min-width : 320px) and (max-width : 700px) {
+	.nameoftourn{
+		font-size: 15px;
+	}
+	.backbtnicon{
+		font-size: 25px;
+		margin-bottom: 11px;
+	}
+}
+.userdtls{
+	height: 105px;
+}
+.userdtlssubdiv{
+	padding-left:5px;
+}
+.eventptag{
+	color:#fff;margin-bottom:0px;
+}
+.eventcolon{
+	padding-left:21px;
+}
+.courttag{
+	color:#fff;
+	padding-left:10px;
+	margin-bottom:0px;
+	margin-top: 10px;
+}
+.courtcolon{
+	padding-left:10px;
+}
+.courtnumber{
+	padding-left: 9px;text-transform:uppercase;color:#080C2B ;
+}
+.whitecolor{
+	color:#fff;
+}
+.blkcolor{
+	color:#000;
+}
+.winnerscorediv{
+	margin-left:7px;
+	border: 1px solid rgba(202, 200, 200, 0.46);
+    background: rgba(255, 255, 255, 0.18);
+    width: 98%;
+    height: 35px;
+    margin-top: 25px;
+}
+.winnerer{
+	color:#fff;
+	margin: 0;
+	font-size: 15px;
+	padding-top:7px;
+	padding-left:10px;
+}
+.buttonstyleforwinner{
+	background-color:#fff;border-radius: 3px;width:37px;height:33px;border: 1px solid rgba(202, 200, 200, 0.46);
+    background: rgba(255, 255, 255, 0.18);
+
+}
+.stoptime{
+	width:70px;
+	height:35px;
+/*	background: rgba(255, 255, 255, 0.18);
+	border: 1px solid rgba(202, 200, 200, 0.46);*/
+	background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(202, 200, 200, 0.27);
+	margin: 0px;
+	padding: 0px;
+}
+.timerlist{
+	    padding: 10px 4px 11px 0px;
+}
+.formatcolon{
+ padding-left: 8px;
+}
+.nameofplyr{
+	padding-left: 12px;
+	text-transform:uppercase;
+}
+.stlvs{
+	padding-left: 14px;
+	padding-right: 14px;
+	font-size: 14px;
+}
+.timescns{
+	margin:0px;
+	color:#ff9613;
+	font-size: 25px;
+	font-weight: bold;
+}
+.itemtimer{
+	background-color:transparent;
+	padding-left: 0px;
+	width: 128px;
+	float: right;
+}
+.timerlist{
+/*	margin-right: 50px;*/
+	margin-bottom: 0px !important;
+}
+.timerdiv{
+	/*float: right;*/
+	/*width: 33%;*/
+}
+.timeroff{
+	color:#fff;
+	margin: 0px;
+}
+.scoretext{
+	color: #fff;
+	font-weight: bold;
+	padding-left: 45%;
+}
+.scorediv{
+	margin-bottom: 10px;
+	height: 40px;
+}
+.rvcls{
+	border-radius: 3px;
+	width:38px;
+	height:38px;
+	border: 1px solid rgba(202, 200, 200, 0.46);
+
+}
+.margin6cls{
+	margin-top:6px;
+}
+.boldcls{
+	font-weight: bold;
+}
+.teamab{
+	background-color:rgba(255, 152, 0, 0.86);
+	border-radius: 3px;
+	width:38px;
+	height:38px;
+	border: 1px solid #fff;font-weight: bold;
+    box-shadow: 0px 0px 9px 2px rgba(136, 136, 136, 0.56);
+}
+.servptdiv{
+	margin-bottom: 10px;
+	/*border: 1px solid rgba(255, 255, 255,0.18);*/
+	height: 38px;
+}
+.btnscoree{
+	width:38px;
+	height:38px;
+	background: rgba(255, 255, 255, 0.18);
+	border: 1px solid rgba(202, 200, 200, 0.46);
+}
+.scoredivv{
+	margin-right:5%;
+	float:right;
+}
+.sideoutdivv{
+	margin:15px 0px 7px 0px; 
+	justify-content: space-between;
+	width: 100%;
+}
+.timouts{
+	width:17%;
+	margin:10px 0px 0px 0px;
+}
+.sideoutp{
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.orangebkbtn{
+	background: rgba(255, 152, 0, 0.86);
+	color:#fff;
+}
+.margpad{
+	margin:0px;padding:0px;
+}
+.btnborderstyle{
+	width:32px;height:32px;left:0;right:0;border: 1px solid rgba(202, 200, 200, 0.46);
+
+}
+.winnerdiv{
+	margin-left:7px;
+	border: 1px solid rgba(202, 200, 200, 0.46);
+    background: rgba(255, 255, 255, 0.18);
+    width: 98%;
+    height: 35px;
+    margin-top: 25px;
+}
+.matchwiners{
+	color:#fff;
+	margin: 0;
+	font-size: 15px;
+	padding-top:7px;
+	padding-left:10px;
+}
+.teamabwiner{
+	margin-bottom: 2%;
+	margin-top:3px;
+
+}
+.winerscorep{
+	margin-top:5px;
+}
+.initials{
+	color:#fff;
+	margin-right: 15px;
+	margin-top:8px;
+}
+.initialbtn{
+	background-color:#fff;
+	border-radius: 3px;
+	width:50px;
+	height:33px;
+	border: 1px solid rgba(202, 200, 200, 0.46);
+    background: rgba(255, 255, 255, 0.18);
+}
+.winerteamsdiv{
+	margin: 0 10px;
+}
+.sideout{
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.mahi{
+	margin:0px;padding-top: 7px;
+}
+.leftright{
+	left: 0;
+	right: 0;
+}
+.servemain{
+	width:4%;
+	height: 27px;
+
+}
+.playercolon{
+	padding-left:6px
+}
+.setcomplete{
+	color:#fff; 
+	background: rgba(255, 152, 0, 0.86);
+
+}
+.scoreundef{
+	width: 100%;margin:4px 0;
+
+}
+.timerselet{
+	color: #e79213;
+}
+.timercountdv{
+	 width:168px;
+	 float:right;
+}
+ @media screen and (min-width : 1280px) and (max-width : 1400px) {
+ 	.timercountdv{
+	 width:200px;
+	 float:right;
+}
+ 	}

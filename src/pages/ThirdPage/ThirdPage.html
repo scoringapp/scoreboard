@@ -1,0 +1,203 @@
+
+
+<style type="text/css">
+	.contentbg{
+  background: url('assets/icon/homescreen.png');background-size: cover;
+}
+.cardforteam{
+/*	width:25%;*/
+	background-color:transparent;
+    border: 1px solid rgba(140, 140, 140, 0.34);
+   margin:5px;
+}
+.mainioncard{
+    background-color:transparent;
+    border: 1px solid rgba(140, 140, 140, 0.34);
+    padding-top: 7px;
+    margin:5px;
+    width: 99%;
+}
+.eventbackg{
+	    background-color: rgba(13, 43, 64, 0.59);
+	color: #fff;
+}
+.eventcolor{
+ color: #fff;
+}
+.alignmentfg{
+	text-align: start;
+	padding: 5px 0px;
+}
+.playerdet{
+	font-size: 11px;
+	color: #bdbdbd;
+}
+.paddingpt{
+	padding-left: 8%;
+}
+.timeforevent{
+	    font-size: 12px;
+    padding-top: 3px;
+    color: #e0dfdf;
+}
+.courtcontent{
+width: 25%;
+}
+.eventnamestyle{
+	width: 66%;text-align: end;
+}
+.timepick{
+  width: 34%;
+}
+.myclass .item-inner {
+	border-bottom: none !important; 
+}
+ @media screen and (min-width : 500px) and (max-width : 1020px) {
+        .courtcontent{
+width: 33%;
+}
+ 	}
+</style>
+<ion-header>
+	<div class="row">
+	<!-- 	<div class="" style="padding: 0px !important;width: 80%;"> -->
+	      <!-- 	<label for="business">Some Label
+
+<select id="business" name="business">
+	<option value="First Choice">First Choice</option>
+	<option value="Second Choice">Second Choice</option>
+	<option value="Third Choice">Third Choice</option>
+	<option value="Fourth Choice">Fourth Choice</option>
+</select>
+
+</label> -->
+<div class="row" style="width: 80%;">
+    <ion-list style="width: 33%">
+  <ion-item class="myclass" style="background-color:transparent;">
+    <ion-label style="color:#fff;">Court</ion-label>
+    <ion-select style="color:#fff;">
+                      <ion-option  value="1min">1</ion-option>
+                      <ion-option  value="2min">2</ion-option>
+                      <ion-option  value="3min">3</ion-option>
+                      <ion-option  value="4min">4</ion-option>
+                      <ion-option     value="5min">5</ion-option>
+                      <ion-option  value="6min">6</ion-option>
+                      <ion-option  value="7min">7</ion-option>
+                      <ion-option  value="8min">8</ion-option>
+           
+                     
+    </ion-select>
+  </ion-item>
+
+</ion-list>
+    <ion-list style="width: 33%">
+  <ion-item class="myclass" style="background-color:transparent;">
+    <ion-label style="color:#fff;">Event</ion-label>
+    <ion-select style="color:#fff;">
+                      <ion-option  value="1min">Mens Doubles 4.5</ion-option>
+                      <ion-option value="2min">Mens Doubles 5.0</ion-option>
+                      <ion-option  value="3min">WOmens Doubles 5.0</ion-option>
+                      <ion-option  value="4min">Mens Singles 4.0</ion-option>
+                      <ion-option     value="5min">Womens Singles 4.5</ion-option>
+                      
+    </ion-select>
+  </ion-item>
+  
+</ion-list>
+    <ion-list style="width: 33%">
+  <ion-item class="myclass" style="background-color:transparent;">
+    <ion-label style="color:#fff;">Team A</ion-label>
+    <ion-select style="color:#fff;">
+                      <ion-option value="1min">joe Smith/Ryan Clark</ion-option>
+                      <ion-option  value="2min">Ben Davis</ion-option>
+                      <ion-option  value="3min">Will Monts/Lonnie Crank</ion-option>
+                      <ion-option  value="4min">Steve Young/Marcus Smart</ion-option>
+                      <ion-option     value="5min">Jason Smith/Ryan Loops</ion-option>
+                      <ion-option  value="6min">Mason Davis/Tyson Lobbing</ion-option>
+                      <ion-option  value="7min">Devin Monts/Lonnie Williams</ion-option>
+                      <ion-option  value="8min">Steve Lopez/Marcus Vans</ion-option>
+    </ion-select>
+  </ion-item>
+  
+</ion-list>
+    <ion-list style="width: 33%">
+  <ion-item class="myclass" style="background-color:transparent;">
+    <ion-label style="color:#fff;">Team B</ion-label>
+    <ion-select style="color:#fff;">
+                      <ion-option  value="1min">Jennifer Hooper/Sally Banks</ion-option>
+                      <ion-option  value="2min">Christine Samuels/Kristi Dean</ion-option>
+                      <ion-option  value="3min">Francine Jewel/Alice Hurst</ion-option>
+                      <ion-option  value="4min">Gail Cook/Lisa Smith</ion-option>
+                    
+    </ion-select>
+  </ion-item>
+  
+</ion-list>
+    <ion-list style="width: 33%">
+  <ion-item class="myclass" style="background-color:transparent;">
+    <ion-label style="color:#fff;">Format</ion-label>
+    <ion-select style="color:#fff;">
+                      <ion-option  value="1min">2 of 3 to 11</ion-option>
+                      <ion-option  value="2min">1 to 15</ion-option>
+                      <ion-option  value="3min">1 to 21</ion-option>
+                    
+    </ion-select>
+  </ion-item>
+  
+</ion-list>
+    <ion-list style="width: 33%">
+  <ion-item class="myclass" style="background-color:transparent;">
+    <ion-label style="color:#fff;">Referee</ion-label>
+    <ion-select style="color:#fff;">
+                      <ion-option  value="1min">Chris Gatling</ion-option>
+                      <ion-option  value="2min">Byron Franks</ion-option>
+                      <ion-option  value="3min">Tom Tooper</ion-option>
+                      <ion-option  value="3min">Bob karl</ion-option>
+                    
+    </ion-select>
+  </ion-item>
+  
+</ion-list>
+</div>
+	
+		<!-- </div> -->
+		<div class=" " text-right style="padding: 0px !important">
+		     <img text-right class="logostyles" src="assets/icon/newicon.png">
+		</div>
+	</div>
+</ion-header>
+<ion-content class="contentbg">
+	<ion-card class="mainioncard row" text-center >
+		<div class="courtcontent"  text-center>
+			<h2  class="courtnumber" style="">court 1</h2>
+			<ion-card class="cardforteam" text-center>
+				<div class="row eventbackg" justify-content-end text-end>
+					<div justify-content-end class="eventnamestyle">
+						<h4  class="eventcolor" >Mens Doubles</h4>
+					</div>
+					<div  justify-content-end class="timepick">
+							<p  class="timeforevent">10pm</p>
+					</div>
+				
+				</div>
+				<div  class = "row" justify-content-around (click)="NextPage(Matche);" style="padding: 5px 0;">
+			
+					     <p class="playerdet"> Mahesh/naresh</p>
+					  <p class="playerdet">VS</p>
+					    <p class="playerdet">GOpi/subhan </p>
+			
+					
+					</div>
+
+				<div  class="alignmentfg" >
+					    <p class="playerdet paddingpt"  justify-content-around>Format <span>:</span><span>2 of 3 to 11</span> </p>
+					</div>
+					<div  class="alignmentfg">
+					    <p class="playerdet paddingpt"  justify-content-around>Referee <span>:</span><span>kattappa</span>  </p>
+					    </div>
+			</ion-card>
+		</div>
+		
+	</ion-card>
+
+</ion-content>
